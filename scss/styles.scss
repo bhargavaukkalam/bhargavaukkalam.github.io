@@ -734,7 +734,7 @@ footer {
 
 #contact {
     padding: 50px 15px;
-    background: $background-contact;
+    background: $background-alt;
     text-align: center;
 
     h2 {
@@ -755,7 +755,7 @@ footer {
         border-radius: 4px;
         border: none;
         margin-bottom: 10px;
-        background: $base-color;
+        background: $background-alt;
         color: #fff;
         @include transition();
         @include placeholder {
@@ -764,7 +764,7 @@ footer {
 
         &:focus {
             outline: none;
-            background: $base-color;
+            background: $background-alt;
         }
     }
 
