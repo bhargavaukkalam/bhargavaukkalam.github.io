@@ -753,7 +753,7 @@ footer {
         border-radius: 4px;
         border: none;
         margin-bottom: 10px;
-        background: darken($base-color, 15%);
+        background: $base-color;
         color: #fff;
         @include transition();
         @include placeholder {
@@ -762,7 +762,7 @@ footer {
 
         &:focus {
             outline: none;
-            background: darken($base-color, 25%);
+            background: $base-color;
         }
     }
 
