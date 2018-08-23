@@ -590,7 +590,7 @@ footer {
 #education {
     padding: 50px 15px 20px 15px;
     border-bottom: 1px solid $border;
-    text-align: center;
+    text-align: left;
 
     h2 {
         color: $heading;
@@ -684,6 +684,7 @@ footer {
         font-weight: 300;
         color: $heading;
         margin: 0 0 15px 0;
+        text-align: center;
     }
 
     p {
